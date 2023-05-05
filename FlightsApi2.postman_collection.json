@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "85c6a388-f5fd-44d6-8766-2c6e2890186e",
+		"name": "FlightsApi2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23018916"
+	},
+	"item": [
+		{
+			"name": "GetCreateWQParams(OrNOT)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetFindallFlights",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/findall",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"findall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetFindallFlights ON TIME",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/findallontime",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"findallontime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetFindallFlights CANC",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/findallcanc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"findallcanc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetFindallFlights asc ord",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/findallasc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"findallasc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetFindallFlights canc & del",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/findallcancelled&delayed?p1=CANCELLED&p2=DELAYED",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"findallcancelled&delayed"
+					],
+					"query": [
+						{
+							"key": "p1",
+							"value": "CANCELLED"
+						},
+						{
+							"key": "p2",
+							"value": "DELAYED"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetFindallFlights ontime & delayed",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/findallcancelled&delayed?p1=CANCELLED&p2=DELAYED",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"findallcancelled&delayed"
+					],
+					"query": [
+						{
+							"key": "p1",
+							"value": "CANCELLED"
+						},
+						{
+							"key": "p2",
+							"value": "DELAYED"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
